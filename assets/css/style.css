@@ -13,10 +13,6 @@ body {
     font-size: 40px;
 }
 
-.heading-content{
-    width: 600px;
-}
-
 .carousel-item:before {
     content: "";
     height: 100%;
