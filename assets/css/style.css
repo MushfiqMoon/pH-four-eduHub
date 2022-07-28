@@ -16,3 +16,11 @@ body {
 .heading-content{
     width: 600px;
 }
+
+.carousel-item:before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: rgb(52 52 52 / 70%);
+    position: absolute;
+}
