@@ -9,7 +9,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-.navbar-brand{
+.navbar-brand {
     font-size: 40px;
 }
 
@@ -17,6 +17,32 @@ body {
     content: "";
     height: 100%;
     width: 100%;
-    background: rgb(52 52 52 / 70%);
+    background: rgb(48 48 48 / 80%);
     position: absolute;
+}
+
+/* tablet-only */
+@media screen and (max-width: 768px) {
+    .instructor {
+        flex-direction: column !important;
+        text-align: center;
+    }
+
+    .o-mob,
+    .instructor>div {
+        width: 80% !important;
+        margin-bottom: 15px;
+    }
+}
+
+/* mobile-only */
+@media screen and (max-width: 576px) {
+    .carousel-caption{
+        padding: 0 !important;
+    }
+   .carousel-caption .mb-5{
+    margin-bottom: 0px !important;
+   }
+
+    
 }
