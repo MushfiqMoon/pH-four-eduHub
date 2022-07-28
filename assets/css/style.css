@@ -23,6 +23,14 @@ body {
 
 /* tablet-only */
 @media screen and (max-width: 768px) {
+
+    .carousel-caption p {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        width: 100%;
+        overflow: hidden;
+    }
+    
     .instructor {
         flex-direction: column !important;
         text-align: center;
